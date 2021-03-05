@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FCC: Survey Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <main id="main">
+            <!-- Header -->
+            <header class="header">
+                <h1 id="title">
+                    We want to get to know your stomach!
+                </h1>
+                <p id="description">Tell us about your tastes!</p>
+            </header>
+            <!-- Form -->
+            <form id="survey-form" action="" autocomplete="on">
+                <div class="form-field">
+                    <label id="name-label" for="fname">Name</label>
+                    <input id="name" type="text" name="fname" placeholder="Enter your name here">
+                </div>
+                <div class="form-field">
+                    <label id="email-label" for="email-input">E-mail</label>
+                    <input id="email" type="email" name="email-input" placeholder="Enter your email">
+                </div>
+                <div class="form-field">
+                    <label id="foodie-label" for="foodie-input">What kind of foodie are you?</label>
+                    <select id="dropdown" name="foodie-input">
+                        <option value="food-connoisseur">Food Connoisseur</option>
+                        <option value="bottomless-pit">Bottomless pit</option>
+                        <option value="instagram-foodie">Instagram foodie</option>
+                        <option value="just-one">Just one bite</option>
+                    </select>
+                </div>
+                <div class="main-grid form-field">
+                    <div id="radio-buttons" class="radio-form">
+                        <h3>Which is your biggest meal of the day?</h3>
+                        <label id="breakfast-label" for="breakfast"><input id="breakfast" type="radio" name="meal">
+                            Breakfast</label>
+                        <label id="lunch-label" for="lunch"><input id="lunch" type="radio" name="meal"> Lunch</label>
+                        <label id="dinner-label" for="dinner"><input id="dinner" type="radio" name="meal">
+                            Dinner</label>
+                    </div>
+                    <div id="checkboxes">
+                        <h3>What kind of food are you into?</h3>
+
+                        <label for="arabic"><input type="checkbox" id="arabic" value="arabic"> Arabic</label>
+
+                        <label for="asiatic"> <input type="checkbox" id="asiatic" value="asiatic"> Asiatic</label>
+
+                        <label for="indian"><input type="checkbox" id="indian" value="indian"> Indian</label>
+
+                        <label for="italian"><input type="checkbox" id="italian" value="italian"> Italian</label>
+
+                        <label for="mediterranean"> <input type="checkbox" id="mediterranean" value="mediterranean">
+                            Mediterranean</label>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="feedback">Tells us more about your passion for food!</label>
+                    <textarea name="feedback" id="feedback" cols="" rows=""></textarea>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
