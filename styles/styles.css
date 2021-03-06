@@ -126,3 +126,20 @@ label {
 #feedback {
   width: 100%;
 }
+
+/* submit button */
+
+#submit {
+  background-color: #f7ffed;
+  border: none;
+  font-size: 1.2rem;
+  margin: 20px;
+  height: 2rem;
+  width: 25%;
+}
+
+#submit:hover {
+  background-color: #f7ffed;
+  box-shadow: 2px 5px 5px #008f12;
+  cursor: pointer;
+}
